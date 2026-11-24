@@ -76,8 +76,11 @@ context labels, not separate permission sets. A supervisor is given the
 Manager role, and students and employees are Members. This keeps the
 permission model small and testable.
 
-### Decision 2: Single organisation vs multi-tenancy
-**Status: OPEN.** To be decided before database design (Phase 2).
+### Decision 2: Multi-organisation data model
+The system is **multi-tenant ready**: every core table includes an
+`organization_id`, and access is enforced with database-level Row Level
+Security. Users belong to one organisation in v1. Billing and tenant
+self-service are out of scope (see Won't Have)..
 
 ## 2.5 User Personas
 
