@@ -17,7 +17,7 @@ Items above 8 are split. Estimates are revised after each sprint.
 | Rank | ID | Item | Points | Milestone |
 |-----:|----|------|-------:|-----------|
 | 1 | TECH-01 | Set up development environment and repo structure | 2 | M1 |
-| 2 | TECH-02 | Design database schema and Row Level Security foundation | 5 | M1 |
+| 2 | TECH-02 | Design database schema and Row Level Security foundation | 8 | M1 |
 | 3 | US-AUTH-03 | Register an account | 3 | M1 |
 | 4 | US-AUTH-02 | Log in | 3 | M1 |
 | 5 | US-AUTH-01 | Assign roles to users | 5 | M1 |
@@ -34,5 +34,5 @@ Items above 8 are split. Estimates are revised after each sprint.
 | 16 | US-AI-01 | Generate tasks from text | 8 | M4 |
 | 17 | US-AI-02 | Review and approve suggested tasks | 5 | M4 |
 
-Total: 65 points. Should-have items (M5) and later milestones are added when
+Total: 68 points. Should-have items (M5) and later milestones are added when
 M1–M4 are underway.
